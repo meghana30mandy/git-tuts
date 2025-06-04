@@ -1,0 +1,43 @@
+Here i am using local terminal and git bash 
+
+mkdir repo - to make a direcotory
+
+cd repo - to get into it
+
+git init - to initialize empty repo
+
+git_bash - touch repo/readme.text - to create emply file
+
+after creating empty file in bash, we are adding it to repo
+git add readme.txt
+
+git status - command shows you the current state of your Git repository. 
+
+git commit -m "This is my first file, yeeey." - used for saving the changes in git with a message attached.
+
+git log command shows you the commit history of your Git repository
+
+creating and merging branches:
+-------------------------------
+
+git branch - points to the current branch we are in.
+
+git checkout -b experimentail_branch - Creates and switches to a new branch
+
+In bash using - vi repo/readme.txt , i have inserted text and saved using - esc + :wq
+
+added the file and commited it again to new branch.
+
+git merge experimental_branch - This command merges the changes from the experimental_branch into your current branch (e.g., main or master), NEVER MERGE DIRECTLY INTO MAIN/MASTER AT WORK.
+
+
+
+
+
+
+
+
+
+
+
+
